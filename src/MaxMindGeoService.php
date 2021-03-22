@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Leit\Geo;
+namespace Leit040\Geo;
 
 
-use  Leit\GeoInterface\GeoIpInterface;
+use  Leit040\GeoInterface\GeoIpInterface;
 use MaxMind\Db\Reader;
 
 class MaxMindGeoService implements GeoIpInterface
