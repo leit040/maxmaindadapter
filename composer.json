@@ -1,14 +1,14 @@
 {
-  "name": "leit040/maxmaindadapter",
+  "name": "leit040/maxmindadapter",
   "type": "package",
   "description": "MaxMind GeoIp adapter.",
   "keywords": [
     "GeoIp",
-    "Maxmaind"
+    "Maxmind"
   ],
   "autoload": {
     "psr-4": {
-      "Leit040\\GeoMaxMaind\\\\": "./src"
+      "Leit040\\Geo\\": "./src"
     }
   },
   "require": {

@@ -6,7 +6,7 @@ namespace Leit040\GeoMaxMind;
 
 
 
-use  Leit040\GeoInterface\GeoIpInterface;
+use  Leit040\Geo\GeoIpInterface;
 use MaxMind\Db\Reader;
 
 class MaxMindGeoService implements GeoIpInterface
