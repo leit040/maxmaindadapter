@@ -1,0 +1,32 @@
+{
+  "name": "leit/maxmaindadapter",
+  "type": "package",
+  "description": "MaxMaind GeoIp adapter.",
+  "keywords": [
+    "GeoIp",
+    "Maxmaind"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Leit\\Geo\\": "./src"
+    }
+  },
+  "require": {
+    "php": "^7.3|^8.0",
+    "geoip2/geoip2": "~2.0",
+    "guzzlehttp/guzzle": "^7.0.1",
+    "leit/geointerface":"dev-master"
+  },
+  "repositories": [{
+    "type": "path",
+    "url": "../leitgeointerface",
+    "options": {
+      "symlink": false
+    }
+  }
+  ]
+}
+
+
+
+
