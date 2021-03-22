@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Leit040\Geo;
+namespace Leit040\GeoMaxMaind;
 
 
 
