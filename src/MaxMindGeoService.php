@@ -4,7 +4,7 @@
 namespace Leit\Geo;
 
 
-use  Leit\Geo\GeoIpInterface;
+use  Leit\GeoInterface\GeoIpInterface;
 use MaxMind\Db\Reader;
 
 class MaxMindGeoService implements GeoIpInterface
@@ -17,7 +17,12 @@ class MaxMindGeoService implements GeoIpInterface
         public function __construct()
     {
 
-       $this->reader = new \GeoIp2\Database\Reader(storage_path() . '/GeoIp/GeoLite2-country.mmdb');
+        try {
+            $this->reader = new \GeoIp2\Database\Reader(storage_path() . '/GeoIp/GeoLite2-country.mmdb');
+        } catch (Reader\InvalidDatabaseException $e) {
+            echo "Error!!!";
+            exit;
+        }
 
 
     }
