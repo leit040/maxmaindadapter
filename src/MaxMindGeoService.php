@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Leit040\GeoMaxMind;
+namespace Leit040\Geo;
 
 
 
