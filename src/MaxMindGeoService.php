@@ -16,12 +16,8 @@ class MaxMindGeoService implements GeoIpInterface
 
         public function __construct()
     {
-        try
-        {$this->reader = new \GeoIp2\Database\Reader(storage_path() . '/GeoIp/GeoLite2-country.mmdb');}
-        catch(\Exception $exception){
-            echo "Error!!!";
-            exit;
-        }
+
+       $this->reader = new \GeoIp2\Database\Reader(storage_path() . '/GeoIp/GeoLite2-country.mmdb');
 
 
     }

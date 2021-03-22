@@ -1,5 +1,5 @@
 {
-  "name": "leit/maxmaindadapter",
+  "name": "leit040/maxmaindadapter",
   "type": "package",
   "description": "MaxMaind GeoIp adapter.",
   "keywords": [
@@ -15,15 +15,13 @@
     "php": "^7.3|^8.0",
     "geoip2/geoip2": "~2.0",
     "guzzlehttp/guzzle": "^7.0.1",
-    "leit/geointerface":"dev-master"
+    "leit040/geointerface":"^1.0.0"
   },
   "repositories": [{
-    "type": "path",
-    "url": "../leitgeointerface",
-    "options": {
-      "symlink": false
-    }
-  }
+    "type": "vcs",
+    "url": "https://github.com/leit040/geointerface"
+        }
+
   ]
 }
 
