@@ -1,7 +1,7 @@
 {
   "name": "leit040/maxmaindadapter",
   "type": "package",
-  "description": "MaxMaind GeoIp adapter.",
+  "description": "MaxMind GeoIp adapter.",
   "keywords": [
     "GeoIp",
     "Maxmaind"
