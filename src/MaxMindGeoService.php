@@ -20,7 +20,7 @@ class MaxMindGeoService implements GeoIpInterface
     {
 
         try {
-            $this->reader = new \GeoIp2\Database\Reader(storage_path() . '/GeoIp/GeoLite2-country.mmdb');
+            $this->reader = new \GeoIp2\Database\Reader(storage_path() . '/GeoIp/GeoLite2-Country.mmdb');
         } catch (Reader\InvalidDatabaseException $e) {
             echo "Error!!!";
             exit;
